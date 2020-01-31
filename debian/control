@@ -1,0 +1,12 @@
+Source: ros-turbulent-opencv-tests
+Section: misc
+Priority: extra
+Maintainer: Ethan Gao <ethan.gao@linux.intel.com>
+Build-Depends: debhelper (>= 9.0.0), ros-turbulent-rclpy, ros-turbulent-ros-workspace, python3-all, python3-setuptools
+Homepage: http://wiki.ros.org/opencv_tests
+Standards-Version: 3.9.2
+
+Package: ros-turbulent-opencv-tests
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-turbulent-cv-bridge, ros-turbulent-launch, ros-turbulent-rclpy, ros-turbulent-sensor-msgs, ros-turbulent-ros-workspace
+Description: OpenCV tests for the Python and C++ implementations of CvBridge with Image message in ROS2.
