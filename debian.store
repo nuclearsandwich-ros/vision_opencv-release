@@ -1,1 +1,1 @@
-{"base": "dc23a9a", "parent": "debian/rolling/cv_bridge", "previous": "c829a6d", "trim": "", "trimbase": ""}
+{"base": "a5e1224", "parent": "debian/humble/cv_bridge", "previous": "c85f6f9", "trim": "", "trimbase": ""}
